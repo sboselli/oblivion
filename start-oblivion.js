@@ -3,3 +3,5 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     file: '/oblivion.js'
   });
 });
+
+console.log('HURRRDURRR')

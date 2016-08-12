@@ -46,7 +46,7 @@ if (document.addEventListener ){
       console.log('lastElement:', lastElement);
 
       if (lastParent !== null && lastElement !== null) {
-        lastParent.addChild(lastElement);
+        lastParent.appendChild(lastElement);
       }
       removeListeners()
       return false;
